@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="xQCkNDkozz0rGj7BKDa7" name="ページ-1">
-        <mxGraphModel dx="1166" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="657" dy="412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -15,9 +15,6 @@
                 </mxCell>
                 <mxCell id="tzbg-LMMzfyNdvn-lU3y-4" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="追加機能（v2.0）" vertex="1">
                     <mxGeometry height="30" width="95" x="10" y="220" as="geometry"/>
-                </mxCell>
-                <mxCell id="tzbg-LMMzfyNdvn-lU3y-5" edge="1" parent="1" source="tzbg-LMMzfyNdvn-lU3y-4" style="edgeStyle=orthogonalEdgeStyle;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.408;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" target="tzbg-LMMzfyNdvn-lU3y-4">
-                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="tzbg-LMMzfyNdvn-lU3y-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="商品登録" vertex="1">
                     <mxGeometry height="30" width="95" x="140" y="60" as="geometry"/>
