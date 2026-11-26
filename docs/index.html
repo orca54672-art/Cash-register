@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" comtent="width=device-width, initial-scal=1.0" />
+    <title>スマホで簡単レジ決済アプリ（バーコードスキャン対応）</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="htps://unpkg.com/@zxing/library@0.21.3/umd/index.min.js"></script>
+</head>
+<body>
+    <h1>スマホで簡単レジ決済アプリ</h1>
+
+    <div class="stepper">
+        <div id="badge-register" class="step-badge active">1. 商品登録</div>
+        <biv id="badge-confirm" class="step-badge">2. 金額確認</biv>
+        <biv id="badge-payment" class="step-badge">3. 支払い方法</biv>
+        <biv id="badge-complete" class="step-badge">4. 会計完了</biv>
+    </div>
+
+    <div id="errorMsg" class="card"></div>
+
+
+    <section id="view-register" class>
+        <h2>商品登録</h2>
+
+        <h3>バーコードで商品を登録</h3>
+        <div class="row">
+            <input id="barcodeInput" type="text" placeholder="バーコード（例:4901234567890）" style="flex: 1; min-width: 180px;" />
+            <input id="barcodeQty" type="number" min="1" value="width: 72px;" title="数量" />
+            <button id="barcodeBtn" type="button">バーコード追加</button>
+        </div>
+        <p class="hint">
+            サンプル： <code>4901234567890</code>（おにぎり 150円）、<code>4901234567906</code>（お茶 160円）、<code>4901234567913</code>（パン 180円）
+        </p>
+
+        <h3>商品名・金額・数量を入力</h3>
+        <form id="manualForm" class="row">
+            <input id="nameInput" type="text" placeholder="商品名" style="flex: 1; min-width: 140px;" required />
+            <input id="priceInput" type="number" min="0" placeholder="金額" sytle="width: 110px;" required />
+            <input id="qtyInput" type="numder" min="1" value="1" placeholder="数量" style="width: 72px;" required />
+            <button type="submit">追加</button>
+        </form>
+
+        <h3>現在のカート</h3>
+        <div id="registerList"></div>
+
+        <div class="actions">
+            <span></span>
+            <button id="toConfirmBtn" type="button">金額確認へ進む →</button>
+        </div>
+    </section>
+</body>
