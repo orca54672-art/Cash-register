@@ -1,0 +1,73 @@
+<mxfile host="65bd71144e">
+    <diagram id="xQCkNDkozz0rGj7BKDa7" name="ページ-1">
+        <mxGraphModel dx="1166" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="tzbg-LMMzfyNdvn-lU3y-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;strong&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;スマホで簡単レジ決済アプリ&lt;/font&gt;&lt;/strong&gt;" vertex="1">
+                    <mxGeometry height="30" width="240" x="55" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="tzbg-LMMzfyNdvn-lU3y-2" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="ウォーキングスケルトン" vertex="1">
+                    <mxGeometry height="30" width="95" x="15" y="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="tzbg-LMMzfyNdvn-lU3y-3" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="基本機能（v1.0）" vertex="1">
+                    <mxGeometry height="30" width="95" x="10" y="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="tzbg-LMMzfyNdvn-lU3y-4" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="追加機能（v2.0）" vertex="1">
+                    <mxGeometry height="30" width="95" x="10" y="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="tzbg-LMMzfyNdvn-lU3y-5" edge="1" parent="1" source="tzbg-LMMzfyNdvn-lU3y-4" style="edgeStyle=orthogonalEdgeStyle;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.408;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" target="tzbg-LMMzfyNdvn-lU3y-4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="tzbg-LMMzfyNdvn-lU3y-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="商品登録" vertex="1">
+                    <mxGeometry height="30" width="95" x="140" y="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="tzbg-LMMzfyNdvn-lU3y-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="金額確認" vertex="1">
+                    <mxGeometry height="30" width="95" x="245" y="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="tzbg-LMMzfyNdvn-lU3y-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="支払い方法" vertex="1">
+                    <mxGeometry height="30" width="95" x="350" y="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="tzbg-LMMzfyNdvn-lU3y-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="会計完了" vertex="1">
+                    <mxGeometry height="30" width="95" x="455" y="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="tzbg-LMMzfyNdvn-lU3y-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="商品名・&lt;div&gt;金額を入力&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="30" width="95" x="140" y="115" as="geometry"/>
+                </mxCell>
+                <mxCell id="tzbg-LMMzfyNdvn-lU3y-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="数量を入力" vertex="1">
+                    <mxGeometry height="30" width="95" x="140" y="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="tzbg-LMMzfyNdvn-lU3y-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="会計完了&lt;div&gt;画面を表示&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="30" width="95" x="455" y="115" as="geometry"/>
+                </mxCell>
+                <mxCell id="tzbg-LMMzfyNdvn-lU3y-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="支払い包歩を選択" vertex="1">
+                    <mxGeometry height="30" width="95" x="350" y="115" as="geometry"/>
+                </mxCell>
+                <mxCell id="tzbg-LMMzfyNdvn-lU3y-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="合計金額を確認" vertex="1">
+                    <mxGeometry height="30" width="95" x="245" y="115" as="geometry"/>
+                </mxCell>
+                <mxCell id="tzbg-LMMzfyNdvn-lU3y-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="お釣りを&lt;div&gt;自動計算&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="30" width="95" x="455" y="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="tzbg-LMMzfyNdvn-lU3y-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="現金・キャッシュレスを選ぶ" vertex="1">
+                    <mxGeometry height="30" width="95" x="350" y="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="tzbg-LMMzfyNdvn-lU3y-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="合計金額を自動計算" vertex="1">
+                    <mxGeometry height="30" width="95" x="245" y="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="tzbg-LMMzfyNdvn-lU3y-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="バーコードで商品を登録" vertex="1">
+                    <mxGeometry height="30" width="95" x="140" y="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="tzbg-LMMzfyNdvn-lU3y-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="レシートを発行" vertex="1">
+                    <mxGeometry height="30" width="95" x="455" y="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="tzbg-LMMzfyNdvn-lU3y-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="QRコード&lt;div&gt;決済に対応&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="30" width="95" x="350" y="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="tzbg-LMMzfyNdvn-lU3y-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="商品の追加・&lt;div&gt;削除・修正&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="30" width="95" x="245" y="220" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
